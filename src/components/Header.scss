@@ -1,0 +1,43 @@
+.main {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 50px;
+
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    
+    padding-left: 50px;
+    img{
+      height: 100px;
+    }
+
+    @media (max-width: 770px) {
+      padding-left: 0;
+      margin: 0 auto;
+    }
+  }
+  .links {
+    margin-right: 30px;
+    display: flex;
+    gap: 25px;
+    @media (max-width: 770px) {
+      display: none;
+    }
+    .button {
+      background-color: transparent;
+      padding: 20px auto;
+      font-size: 20px;
+      border-radius: 0;
+      border: 0;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        color: gray;
+        background-color: white;
+      }
+    }
+  }
+}

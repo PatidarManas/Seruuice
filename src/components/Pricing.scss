@@ -1,0 +1,100 @@
+.pricing {
+  display: flex;
+  padding: 30px 100px 0 100px;
+  flex-direction: column;
+  margin-top: 200px;
+  gap: 25px;
+  margin-bottom: 40px;
+  @media (max-width: 770px) {
+    padding: 30px 10px 0 10px;
+  }
+  @media (max-width: 600px) {
+    margin-top: 20px;
+  }
+  .h1 {
+    font-size: 42px;
+    font-weight: 100;
+  }
+  .box {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 10%;
+    @media (max-width: 770px) {
+      gap: 4%;
+    }
+    @media (max-width: 426px) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .left {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      img {
+        width: 90%;
+        @media (max-width: 426px) {
+          width: 75%;
+          margin: 0 auto;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      .up {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        @media (max-width: 426px) {
+          gap: 12px;
+        }
+        .slogan {
+          font-size: 44px;
+          font-weight: 500;
+          @media (max-width: 770px) {
+            font-size: 36px;
+          }
+          @media (max-width: 426px) {
+            font-size: 30px;
+          }
+        }
+        .text {
+          font-size: 22px;
+          font-weight: 300;
+          @media (max-width: 770px) {
+            font-size: 20px;
+          }
+        }
+      }
+      .but {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+          cursor: pointer;
+          border: 0;
+          border-radius: 0;
+          width: 280px;
+          height: 75px;
+          align-items: center;
+          justify-content: center;
+          font-size: 32px;
+          font-weight: 400;
+          font-family: "Courier New", Courier, monospace;
+          &:hover {
+            background-color: black;
+            color: #e3f6ff;
+            font-size: 34px;
+          }
+          @media (max-width: 426px) {
+           margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
