@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Seruuice Social Media Agency Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Seruuice, the landing page project for a social media agency! Seruuice is a static landing page built using React and SCSS. This landing page serves as the digital face of the social media agency, showcasing its services, expertise, and unique approach.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Seruuice is designed with a stunning black and white theme, offering a sleek and modern aesthetic that captivates visitors. The landing page is meticulously crafted to provide an immersive experience, highlighting the agency's commitment to excellence in social media marketing.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**: Seruuice landing page is designed to be fully responsive, ensuring optimal viewing experience across various devices and screen sizes.
+- **Sleek Black and White Theme**: The project features a captivating black and white theme that exudes sophistication and elegance.
+- **Service Showcase**: Visitors can explore the agency's services, including social media management, content creation, influencer marketing, and more.
+- **Expertise Highlight**: Seruuice highlights its expertise and experience in the social media industry, instilling confidence in potential clients.
+- **Contact Section**: The landing page includes a contact section, allowing visitors to easily reach out to the agency for inquiries or collaboration opportunities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: A JavaScript library for building user interfaces.
+- **SCSS (Sass)**: A CSS preprocessor that enhances the styling capabilities with features like variables, mixins, and nested rules.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Theme
 
-### `npm run build`
+The black and white theme of Seruuice landing page adds a touch of sophistication and elegance, creating a visually stunning experience for visitors. The minimalistic design approach ensures clarity and focus on the content and services offered by the agency.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Seruuice landing page is deployed on [Vercel](https://vercel.com/), a platform for static sites and serverless functions. Deployment is automated through GitHub, allowing for seamless updates to the live site upon pushing changes to the `main` branch.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Preview
 
-### `npm run eject`
+[seruuice.vercel.app](https://seruuice.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions to Seruuice project are welcome! If you'd like to contribute, please follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/new-feature`).
+6. Create a new Pull Request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
